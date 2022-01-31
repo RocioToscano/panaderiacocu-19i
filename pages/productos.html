@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Pagina de panaderia Cocu" />
+    <meta name="author" content="Rocio Toscano" />
+    <meta
+      name="keyworks"
+      content="pan, tortillas, brownie, masas finas, facturas"
+    />
+    <link rel="stylesheet" href="../css/bootstrap.min.css" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <script
+      src="https://kit.fontawesome.com/997dabafc0.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Panaderia Cocu</title>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="../index.html">
+            <img
+              src="../img/cocu_logo-450.png"
+              alt="logo de la panaderia Cocu"
+              width="90"
+            />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navPanaderia"
+            aria-controls="navPanaderia"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navPanaderia">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="../index.html">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="productos.html"
+                  >Productos</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="historia.html">Historia</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contacto.html">Contacto</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main class="container">
+      <section class="my-5">
+        <h1 class="display-2 text-center">Galeria de productos</h1>
+        <hr />
+        <article class="row">
+          <div class="col-sm-12 col-md-4 col-lg-3">
+            <div class="card">
+              <img
+                src="../img/productos/Brioche-larga-oscura_00059_portfolio1.jpg"
+                alt="Brioche"
+                class="card-img-top"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Lorem, ipsum dolor. <span class="badge bg-warning">Nuevo</span></h1></h5>
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum
+                  omnis est amet perferendis animi beatae!
+                </p>
+                <a href="productoMedialuna.html" class="btn btn-primary"> Ver mas</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-4 col-lg-3">
+            <div class="card">
+              <img
+                src="../img/productos/Croissant_00018_portfolio1.jpg"
+                alt="Medialuna"
+                class="card-img-top"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Lorem, ipsum dolor.</h5>
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum
+                  omnis est amet perferendis animi beatae!
+                </p>
+                <button
+                  class="btn btn-primary"
+                  type="button"
+                  data-bs-toggle="modal"
+                  data-bs-target="#modalProducto"
+                >
+                  Ver mas
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-4 col-lg-3">
+            <div class="card">
+              <img
+                src="../img/productos/Eclair_00118_portfolio1.jpg"
+                alt="Eclair"
+                class="card-img-top"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Lorem, ipsum dolor.</h5>
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum
+                  omnis est amet perferendis animi beatae!
+                </p>
+                <button class="btn btn-primary disabled" type="button">
+                  Ver mas
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-4 col-lg-3">
+            <div class="card">
+              <img
+                src="../img/productos/Pan-de-miga_00195_portfolio1.jpg"
+                alt="Pan de miga"
+                class="card-img-top"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Lorem, ipsum dolor.</h5>
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum
+                  omnis est amet perferendis animi beatae!
+                </p>
+                <button class="btn btn-primary" type="button">Ver mas</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-4 col-lg-3">
+            <div class="card">
+              <img
+                src="../img/productos/Pan-de-uva-corte_00058_portfolio1.jpg"
+                alt="Pan de uva"
+                class="card-img-top"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Lorem, ipsum dolor.</h5>
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum
+                  omnis est amet perferendis animi beatae!
+                </p>
+                <button class="btn btn-primary" type="button">Ver mas</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-4 col-lg-3">
+            <div class="card">
+              <img
+                src="../img/productos/pan.jpg"
+                alt="Pan largo"
+                class="card-img-top"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Lorem, ipsum dolor.</h5>
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum
+                  omnis est amet perferendis animi beatae!
+                </p>
+                <button class="btn btn-primary" type="button">Ver mas</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-4 col-lg-3">
+            <div class="card">
+              <img
+                src="../img/productos/pan2.jpg"
+                alt="Pan redondo"
+                class="card-img-top"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Lorem, ipsum dolor.</h5>
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum
+                  omnis est amet perferendis animi beatae!
+                </p>
+                <button class="btn btn-primary" type="button">Ver mas</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-4 col-lg-3">
+            <div class="card">
+              <img
+                src="../img/productos/Panes-de-campo-corte_00162_portfolio1.jpg"
+                alt=" Pan de campo"
+                class="card-img-top"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Lorem, ipsum dolor.</h5>
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum
+                  omnis est amet perferendis animi beatae!
+                </p>
+                <button class="btn btn-primary" type="button">Ver mas</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-4 col-lg-3">
+            <div class="card">
+              <img
+                src="../img/productos/Panes-negros-corte_00170_portfolio1.jpg"
+                alt="Pan negro"
+                class="card-img-top"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Lorem, ipsum dolor.</h5>
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum
+                  omnis est amet perferendis animi beatae!
+                </p>
+                <button class="btn btn-primary" type="button">Ver mas</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-4 col-lg-3">
+            <div class="card">
+              <img
+                src="../img/productos/Paris-Brest_00140_portfolio.jpg"
+                alt="Paris brest"
+                class="card-img-top"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Lorem, ipsum dolor.</h5>
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum
+                  omnis est amet perferendis animi beatae!
+                </p>
+                <button class="btn btn-primary" type="button">Ver mas</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-4 col-lg-3">
+            <div class="card">
+              <img
+                src="../img/productos/Torta-de-chocolate_00098_portfolio.jpg"
+                alt="Tarta de chocolate"
+                class="card-img-top"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Lorem, ipsum dolor.</h5>
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum
+                  omnis est amet perferendis animi beatae!
+                </p>
+                <button class="btn btn-primary" type="button">Ver mas</button>
+              </div>
+            </div>
+          </div>
+        </article>
+        <nav aria-label="Navegacion galeria de productos" class="mt-3">
+          <ul class="pagination justify-content-center">
+            <li class="page-item">
+              <a class="page-link" href="#" aria-label="Previous">
+                <span aria-hidden="true">&laquo;</span>
+              </a>
+            </li>
+            <li class="page-item active"><a class="page-link" href="#">1</a></li>
+            <li class="page-item"><a class="page-link" href="#">2</a></li>
+            <li class="page-item"><a class="page-link" href="#">3</a></li>
+            <li class="page-item">
+              <a class="page-link" href="#" aria-label="Next">
+                <span aria-hidden="true">&raquo;</span>
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </section>
+    </main>
+    <!-- Modal del producto-->
+    <div
+      class="modal fade"
+      id="modalProducto"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="tituloModal"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="tituloModal">Medialuna</h5>
+            <button
+              type="button"
+              class="close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <img src="../img/productos/Croissant_00018_portfolio1.jpg" alt="Medialuna" class="w-100">
+            <p class="mt-3"><span class="fw-bold">Precio:</span> $100</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <section class="container-fluid bg-dark text-white">
+        <article class="container row py-5">
+          <div class="text-center col-sm-12 col-md-4 col-lg-4">
+            <img
+              src="../img/cocu_logo-450.png"
+              alt="logo de la panaderia Cocu"
+              width="130"
+              class="ms-5"
+            />
+          </div>
+          <div class="col-sm-12 col-md-4 col-lg-4">
+            <h5>Horario de atencion:</h5>
+            <p>Lunes a Viernes: de 9 a 18 hs</p>
+            <p>Sabado, Domingos y feriados: de 9 a 14 hs</p>
+          </div>
+          <div class="col-sm-12 col-md-4 col-lg-4">
+            <h5>Seguinos en nuestras redes:</h5>
+            <i class="fab fa-facebook-square fa-3x mx-1"></i>
+            <i class="fab fa-twitter-square fa-3x mx-1"></i>
+            <i class="fab fa-instagram-square fa-3x mx-1"></i>
+          </div>
+        </article>
+      </section>
+    </footer>
+    <script src="../js/bootstrap.min.js"></script>
+  </body>
+</html>
